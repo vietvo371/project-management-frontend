@@ -57,7 +57,7 @@
           </h3>
 
           <draggable
-            v-model="getTasksByStatus(status)"
+            v-model="getTasksByStatus(status).value"
             :group="{ name: 'tasks' }"
             item-key="id"
             class="space-y-3 min-h-[200px]"
